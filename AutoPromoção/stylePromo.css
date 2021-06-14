@@ -1,0 +1,22 @@
+/* Header */
+.nav-link.active{
+    background-color: rgb(196, 196, 196);
+}
+.nav-link{
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/* Body */
+#search{
+    margin-right: 5px;
+}
+
+
+
+/* Footer */
+#btn_footer_social{
+    width:12%;
+}

@@ -1,0 +1,94 @@
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav{
+  background: lightblue;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 125px;
+}
+
+
+#btn-mobile {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*Titulo da pagina inicio*/
+
+.titulo_pagina{
+    text-align: center;
+    padding-top: 1.3%;
+    padding-bottom: 8%;
+}
+
+/*Titulo da pagina fim*/
+
+/*Conteudo Pagina* inicio*/
+/*
+.conteudo{
+    border-bottom: solid; border-top: solid;
+}
+*/
+.descricao-empresa{
+    font-size: large;    
+}
+
+.row{
+    padding-bottom: 100px;
+}
+
+/*Conteudo pagina fim*/
+
+/*Footer*/
+
+.footer{
+    background-color: rgb(46, 46, 78);
+    margin-top: 20px;
+    color: white;
+}
+  
+.footer_area{
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
