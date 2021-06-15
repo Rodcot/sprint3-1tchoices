@@ -20,8 +20,8 @@ function exibeUsuarios() {
 function initPage() {
 
     // Associa a função de logout ao botão
-    document.getElementById('btn_logout').addEventListener('click', logoutUser);
-
+    document.getElementById('logout').addEventListener('click', logoutUser);
+    
     // Informa o nome do usuário logado
     document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome;
 
