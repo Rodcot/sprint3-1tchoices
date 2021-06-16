@@ -85,6 +85,7 @@ function loginUser (login, senha) {
             // Salva os dados do usuário corrente no Session Storage, mas antes converte para string
             sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
 
+            sessionStorage.setItem ('userValue', usuarioCorrente.nome);
             // Retorna true para usuário encontrado
             return true;
         }
@@ -98,7 +99,8 @@ function loginUser (login, senha) {
 function logoutUser () {
     usuarioCorrente = {};
     sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
-    window.location = LOGIN_URL;
+    window.location = "Home.html";
+    alert("logout realizado")
 }
 
 function addUser (nome, login, senha, email) {

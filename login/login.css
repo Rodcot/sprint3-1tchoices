@@ -19,4 +19,12 @@
     margin-bottom: 10px;
 }
 
+a, #voltar-menu{
+    color: white;
+    text-decoration: none;
+}
 
+a, #voltar-menu:hover{
+    color: white;
+    
+}
