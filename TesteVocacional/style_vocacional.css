@@ -1,0 +1,52 @@
+
+/* Header */
+.nav-link.active{
+    background-color: rgb(196, 196, 196);
+}
+.nav-link{
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/* Body */
+#carousel_img1{
+    width: 100%;
+    height: 450px;
+}
+#carousel_img2{
+    width: 100%;
+    height: 450px;
+}
+
+#carousel_img3{
+    width: 100%;
+    height: 450px;
+}
+
+#carousel_img4{
+    width: 100%;
+    height: 450px;
+}
+
+#carousel_img5{
+    width: 100%;
+    height: 450px;
+}
+
+#carousel_img6{
+    width: 100%;
+    height: 450px;
+}
+
+
+#information_cards{
+    margin: 20px;
+}
+
+
+/* Footer */
+#btn_footer_social{
+    width:12%;
+}
